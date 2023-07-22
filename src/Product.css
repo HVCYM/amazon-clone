@@ -1,0 +1,58 @@
+.product
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    min-width: 10em;
+    max-height: 40em;
+    justify-content: flex-end;
+    margin: 0.5em;
+    padding: 1em;
+    z-index: 1;
+    font-size: 0.7em;
+}
+.product > button
+{
+    align-items: center;
+}
+.product__info
+{
+    text-align: left;
+    width: 100%;
+    font-size: 1.75em;
+    font-weight: bold;
+    min-height: 1em;
+
+    
+    
+}
+.image__div
+{
+    height: 20em;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.product__rating
+{
+    text-align: left;
+    width: 100%;
+}
+.product__button
+{
+    background:#f4b86a ;
+    border-radius: 0.4em;
+    border-color: #e3ae69 rgb(203, 179, 134);
+    width: 7em;
+}
+
+.product__image
+{
+    padding: 0.5em;
+    max-height: 19em;
+    width: 95%;
+    object-fit: contain;
+    margin-bottom: 1em;
+}

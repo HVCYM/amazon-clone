@@ -1,0 +1,63 @@
+.home
+{
+    display: flex;
+    width: 100em;
+    justify-content: center;
+
+}
+.home__buttonLeft
+{
+    display: flex;
+    z-index: 1;
+    background: none;
+    border: none;
+    height: 19em;
+    width: 6em;
+    position: absolute;
+    left: 0.1em;
+    margin-top: 0.1em;
+    
+}
+.home__buttonRight
+{
+    display: flex;
+    z-index: 1;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0.1em;
+    height: 19em;
+    width: 6em;
+    margin-top: 0.1em;
+   
+    
+}
+#button:focus
+{
+    border-style: solid;
+    border-color:rgb(70, 99, 155);
+    border-radius: 0.4em;
+    outline: 0.1em solid;
+    outline-color: white;
+}
+.home__row
+{
+    display: flex;
+    z-index: 1;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.button__icon
+{
+    margin-top: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.home__image
+{
+    width: 79rem;
+    z-index: -1;
+    margin-bottom: -16em;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}

@@ -1,0 +1,150 @@
+a
+{
+    text-decoration: none;
+}
+.login
+{
+    display: flex;
+    flex-direction: column;
+    width: 79em;
+    background-color: white;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.login__div1
+{
+    border: 0.08em solid;
+    border-color: rgb(224, 224, 224);
+    border-radius: 0.4em;
+    padding: 1.5em;
+    padding-top: 1em;
+    max-width: 23%;
+    margin-top: 1em;
+}
+.login__div1>div
+{
+    display: flex;
+    flex-direction: column;
+}
+.login__logo
+{
+    height: 2.5em;
+    object-fit: contain;
+    margin-top: 0px;
+}
+.login__div1-line1
+{
+    font-size: 2em;
+    font-weight: 400;
+}
+.login__div1-label
+{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+.input-div
+{
+    width: 100%;
+    margin-top: 0.5em;
+}
+.login__div1-input
+{
+    
+    height: 2em;;
+    width: 21.35em;
+    border-radius: 0.3em;
+    border: 0.01em solid;
+    border-color: rgb(218, 218, 218);
+    outline-color: #f0c14b;
+    
+}
+.login__div1-button
+{
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 100%;
+    background-color: #f0c14b;
+    border-style: none;
+    border-radius: 0.3em;
+}
+.login__div1-button:hover
+{
+    background-color: #e7b63b;
+}
+
+.login__div1-line2
+{
+    font-size: 0.75em;
+    margin-top: 2em;
+    
+}
+.login__div1-line3
+{
+    font-size: 0.8em;
+    margin-top: 2em;
+}
+.login__div2
+{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+    
+}
+.line-break
+{
+    background-color: rgb(227, 227, 227);
+    height: 0.01em;
+    width: 34%;
+}
+.line-text
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 0.8em;
+}
+.login__div3
+{
+    width: 28%;
+}
+.login__div3-button
+{
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 0.3em;
+    border: 0.01em solid rgb(162, 162, 162);
+    background-color: rgb(244, 244, 244);
+    margin-top: 1em;
+}
+.login__div3-button:hover
+{
+    background-color: rgb(224, 223, 223);
+}
+.line-break-2
+{
+    margin-top: 1em;
+    height: 0.5em;
+    width: 90%;
+    background:linear-gradient(to bottom,#fff,rgba(245, 245, 245,1),#fff);
+}
+.login__div4
+{
+    font-size: 0.8em;
+    margin-top: 1em;
+   
+    
+}
+.login__div4>span
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.login__div5
+{
+    font-size: 0.7em;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}

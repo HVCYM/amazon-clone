@@ -1,0 +1,146 @@
+.header
+{
+    height: 4em;
+    width: 79em;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.header__logo
+{
+    width: 6em;
+    object-fit: contain;
+    padding-top: 0.5em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-left: 1em;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    border: 0.08em solid #131921;
+    
+}
+.header__logo:hover
+{
+    border-style: solid;
+    border-radius: 0.1em;
+    border-color: white;
+}
+.header__nav
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__search
+{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 2em;
+    border-radius: 0.3em;
+    border-color: #e5a654;
+    border-style: solid;
+    
+}
+.header__searchCategory
+{
+    
+    outline: none;
+    height: 2rem;
+    width: auto;
+    background-color: rgb(234, 234, 234);
+    border: none;
+    border-top-left-radius: 0.2em ;
+    border-bottom-left-radius: 0.2em ;
+    margin: 0em;
+}
+.header__searchCategory > option
+{
+    
+    height: 2rem;
+    background-color: rgb(214, 211, 211);
+    border-radius: 0rem;
+   
+}
+
+.header__searchInput
+{
+    height: 1.9rem;
+    display: flex;
+    flex: 1;
+    border-radius: 0em;
+    border-style: none;
+    outline: none;
+   
+}
+
+.header__searchIcon
+{
+     background-color: #e5a654;
+     border-top-right-radius: 0.1rem;
+     height: 2rem !important;
+     width: 2.5rem !important;
+    border-bottom-right-radius: 0.1rem;
+    display: flex;
+}
+.header__searchIcon:active
+{
+   transform: scale(1.1);
+}
+.header__locationIcon
+{
+    height: 1rem !important;
+}
+.header__option
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 0.3em;
+    border: 0.08em solid #131921;
+}
+.header__option:hover
+{
+    border-color: white;
+    border-radius: 0.1em;
+}
+.header__optionLine1
+{
+    font-size: 0.7em;
+    text-align: center;
+}
+.header__optionLine2
+{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.header__cart
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    border: 0.08em solid #131921;
+    border-radius: 0.1em;
+}
+.header__cart:hover
+{
+    border-color: white;
+    
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.header__cartCount
+{
+    margin: 0.5em;
+}

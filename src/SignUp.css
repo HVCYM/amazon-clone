@@ -1,0 +1,134 @@
+*
+{
+    margin: 0px;
+}
+.signup
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    padding: 5px;
+}
+
+.signup__div1
+{
+    border: 1px solid;
+    border-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 23%;
+    margin-top: 15px;
+}
+.signup__div1>div
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.signup__logo
+{
+    width: 100px;
+    object-fit: contain;
+    margin-top: 0px;
+}
+.signup__div1-line1
+{
+    font-size: 30px;
+    font-weight: 900px;
+}
+.signup__div1-label
+{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.signup__div1-input
+{
+    
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: rgb(218, 218, 218);
+    outline-color: #cd9042;
+    
+    
+}
+.signup__div1-button
+{
+    margin-top: 15px;
+    padding: 7px;
+    background-color: #f0c14b;
+    border-style: none;
+    border-radius: 3px;
+}
+.signup__div1-line2
+{
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
+.signup__div1-line3
+{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.signup__div2
+{
+    width: 28%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.line-break1
+{
+    background-color: rgb(227, 227, 227);
+    height: 1px;
+    border-style: none;
+    margin-top: 20px;
+}
+.line-text
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.signup__div3
+{
+    width: 28%;
+}
+.line-break2
+{
+    margin-top: 25px;
+    width: 90%;
+    height: 3px;
+    background:linear-gradient(to bottom,#fff,rgba(245, 245, 245,1),#fff);
+    border-style: none;
+}
+.signup__div4
+{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.signup__div4>span
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.signup__div5
+{
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+a
+{
+    text-decoration: none;
+}
+#line3-sign-in
+{
+    color:rgba(3, 109, 171, 0.854)
+}
